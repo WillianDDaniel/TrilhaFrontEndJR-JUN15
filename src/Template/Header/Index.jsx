@@ -1,9 +1,12 @@
+import Navbar from '../../Components/Navbar/Index'
 import './Styles.css'
 
 export default function Header() {
     return (
-        <div>
-            
-        </div>
+
+        <header className='header'>
+            <Navbar />
+        </header>
+
     )
 }

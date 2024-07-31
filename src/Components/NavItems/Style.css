@@ -1,0 +1,17 @@
+.nav-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-items-list {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+
+@media screen and (max-width: 632px) {
+    .nav-items {
+        display: none;
+    }
+}

@@ -2,13 +2,13 @@ import './App.css'
 import Header from './Template/Header/Index'
 import Footer from './Template/Footer/Index'
 
-function App() {
+export default function App() {
 
   return (
     <>
-      <Header>
+    
+      <Header/>
 
-      </Header>
       <main>
 
       </main>
@@ -18,5 +18,3 @@ function App() {
     </>
   )
 }
-
-export default App

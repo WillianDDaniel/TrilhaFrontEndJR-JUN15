@@ -1,0 +1,17 @@
+.toggle-menu {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 60px;
+}
+
+.toggle-menu-icon {
+    transform: scale(1.5);
+}
+
+@media screen and (max-width: 632px) {
+    .toggle-menu {
+        display: flex;
+    }
+}

@@ -1,0 +1,14 @@
+.logo-container {
+    display: flex;
+}
+
+.logo-img {
+    width: 45px;
+}
+
+.logo-text {
+    display: flex;
+    gap: 7px;
+    font-size: 30px;
+    padding: 0 10px;
+}
