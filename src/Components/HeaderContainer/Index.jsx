@@ -4,29 +4,47 @@ export default function HeaderContainer() {
     return (
         <div className='header-container'>
 
-                <div className='header-content'>
 
-                    <h2 className='header-welcome'>-+ Seja bem vindo! +-</h2>
+            <div className='header-content'>
 
-                    <p>Projeto de aprensentação Front-End!</p>
-
-                    <img src="willian-daniel.png" alt="willian-daniel-foto"
-                        title='Foto de Willian D. Daniel' 
-                        className='author-img'
+                <div className='header-content-01'>
+                    <img className='tech-imgs'
+                        src="tech-imgs.svg" alt=""
                     />
-
-                    <h1 className='header-title'>Willian D. Daniel</h1>
-
-                    <p>Desenvolvedor Fullstack Javascript</p>
-
                 </div>
 
-                <div className='header-img'>
+                <div className='header-content-02'>
 
-                    <img src="tech-imgs.svg" alt="" className='tech-imgs'/>
+                    <h2>Seja bem vindo(a)!</h2>
+
+                    <h1>Projeto de apresetanção Front-End Jr</h1>
+
+                    <div className='author-container'>
+
+                        <div className='author-img'>
+
+                            <img src="willian-daniel.png" alt="" />
+
+                        </div>
+
+                        <div className='author-info'>
+
+                            <div>Willian Deiviti Daniel</div>
+                            <div><strong>Desenvolvedor Fullstack Javascript</strong></div>
+
+                            <button>
+                                Saiba Mais
+                            </button>
+
+                        </div>
+
+
+                    </div>
 
                 </div>
 
             </div>
+
+        </div>
     )
 }

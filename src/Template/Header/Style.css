@@ -3,3 +3,9 @@
     height: 98vh;
     padding-bottom: 10px;
 }
+
+@media screen and (max-width: 240px) {
+    .header {
+        height: auto;
+    }
+}

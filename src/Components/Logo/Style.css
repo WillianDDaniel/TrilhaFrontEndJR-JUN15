@@ -9,6 +9,47 @@
 .logo-text {
     display: flex;
     gap: 7px;
-    font-size: 30px;
+    font-size: 1.90rem;
     padding: 0 10px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .logo-img {
+        width: 40px;
+    }
+
+    .logo-text {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .logo-img {
+        width: 33px;
+    }
+
+    .logo-text {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo-img {
+        width: 30px;
+    }
+
+    .logo-text {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 240px) {
+    .logo-img {
+        width: 25px;
+    }
+
+    .logo-text {
+        font-size: 0.92rem;
+    }
 }

@@ -10,7 +10,7 @@
     transform: scale(1.5);
 }
 
-@media screen and (max-width: 632px) {
+@media screen and (max-width: 720px) {
     .toggle-menu {
         display: flex;
     }
