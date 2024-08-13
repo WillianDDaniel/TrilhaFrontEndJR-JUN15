@@ -10,7 +10,7 @@ export default function HeaderContainer() {
 
                 <div className='header-content-01'>
                     <img className='tech-imgs'
-                        src="tech-imgs.svg" alt=""
+                        src="tech-img.svg" alt=""
                     />
                 </div>
 

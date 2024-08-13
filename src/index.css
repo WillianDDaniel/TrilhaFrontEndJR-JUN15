@@ -12,6 +12,6 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-image: url('code-bg.jpg');
+  background-image: url('/public/code-bg.jpg');
   background-size: cover;
 }
