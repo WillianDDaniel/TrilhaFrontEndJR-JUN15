@@ -1,3 +1,4 @@
+import Button from '../Button/Index'
 import './Style.css'
 
 export default function HeaderContainer() {
@@ -32,12 +33,11 @@ export default function HeaderContainer() {
                             <div>Willian Deiviti Daniel</div>
                             <div><strong>Desenvolvedor Fullstack Javascript</strong></div>
 
-                            <button>
-                                Saiba Mais
-                            </button>
+                            <Button
+                                label={"Saiba mais"}
+                            />
 
                         </div>
-
 
                     </div>
 

@@ -1,0 +1,31 @@
+.about-section {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    width: 100vw;
+    
+}
+
+.about-title {
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.about-description {
+    margin-bottom: 30px;
+    font-size: 1.15rem;
+}
+
+.about-container  {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 70vh;
+    width: 75%;
+    text-align: justify;
+}
+

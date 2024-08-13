@@ -6,11 +6,12 @@
   box-sizing: border-box;
 }
 
-:root {
+#root {
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background: #111111;
+  background-image: url('code-bg.jpg');
+  background-size: cover;
 }
